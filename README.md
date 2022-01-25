@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+<h1 align="center">3-Column Preview Card Component</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Sobre o Projeto
 
-## Available Scripts
+Layout desenvolvido com base no [design](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-) proposto pelo site [Frontend Mentor](https://www.frontendmentor.io/home).
 
-In the project directory, you can run:
+## Layout
 
-### `npm start`
+<div align="center">
+    <img src="demo/layout-desktop.gif" alt="Demonstração da responsividade"></img>
+</div>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Tecnologias utilizadas
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<div align="center">
+    <h3>Front-end</h3>
+    <img src="https://img.shields.io/badge/-HTML5-05122A?style=flat&logo=HTML5&logoColor=E34C26" alt="HTML5 Icon" height="28" title="HTML5"></img>
+    <img src="https://img.shields.io/badge/-CSS3-05122A?style=flat&logo=CSS3&logoColor=2965F1" alt="CSS3 Icon" height="28" title="CSS3"></img>
+    <img src="https://img.shields.io/badge/-JavaScript-05122A?style=flat&logo=JavaScript&logoColor=F0DB4F" alt="JavaScript Icon" height="28" title="JavaScript"></img>
+    <img src="https://img.shields.io/badge/-React-05122A?style=flat&logo=React&logoColor=61DBFB" alt="React Icon" height="28" title="React"></img>
+</div>
 
-### `npm test`
+## Pré-requisitos
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<ul>
+    <li>
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" alt="Git Icon" width="15">
+        <a href="https://git-scm.com/" rel="external">Git</a>
+        <span>(Sistema de Controle de Versão)</span>
+    </li>
+    <li>
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" alt="Node.js Icon" width="15">
+        <a href="https://nodejs.org/en/" rel="external">NPM</a>
+        <span>(Gerenciador de Pacotes do <strong>Node.js</strong>)</span>
+    </li>
+</ul>
 
-### `npm run build`
+## Como utilizar
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<ol>
+    <li>Abra o terminal do Git no diretório onde ficará este projeto.</li>
+    <li>Entre com o comando <code>git clone 'https://github.com/riandeolivera/3-column-preview-card-component'</code>.</li>
+    <li>Instale as dependências necessárias usando <code>npm install</code>.</li>
+    <li>Após a instalação, insira <code>npm start</code>.</li>
+    <li>Entre na URL <a href="http://localhost:3000">http://localhost:3000</a> pela sua barra de navegação, é onde a aplicação estará rodando.</li>
+</ol>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Desenvolvido em
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+24 de jan. de 2022
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<p align="center">Made with 💙 by Rian Oliveira</p>
