@@ -7,7 +7,7 @@ Desenvolvido com base no [design](https://www.frontendmentor.io/challenges/3colu
 ## Demonstração
 
 <div align="center">
-  <img alt="Application demo GIF." src="demo/3-column-preview-card-component.gif"></img>
+  <img alt="Application demo GIF." src="demo/3-Column-Preview-Card-Component-e-mais-11-páginas-Pessoal-—-Microsoft_-Edge-2022-04-02-00-38-41.gif"></img>
 </div>
 
 ## Como acessar
