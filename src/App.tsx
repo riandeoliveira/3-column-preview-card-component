@@ -10,7 +10,7 @@ const { cards_content } = content;
 
 const carImages = [sedans, suvs, luxury];
 
-export const App: React.FC = () => {
+const App: React.FC = () => {
   const setCardContent = (item: CardContent): CardContent => {
     const cardContent = {
       id: item.id,
@@ -30,3 +30,5 @@ export const App: React.FC = () => {
     </AppContainer>
   );
 };
+
+export default App;

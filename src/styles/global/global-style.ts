@@ -1,12 +1,10 @@
-import theme from "../theme/theme.json";
 import { createGlobalStyle } from "styled-components";
+import theme from "../theme/theme.json";
 
-const { fonts } = theme;
-
-export const GlobalStyle = createGlobalStyle`
+const GlobalStyle = createGlobalStyle`
   * {
     box-sizing: border-box;
-    font-family: ${fonts.primary}, ${fonts.neutral};
+    font-family: ${theme.fonts.primary}, ${theme.fonts.neutral};
     list-style: none;
     margin: 0;
     outline: 0;
@@ -20,5 +18,6 @@ export const GlobalStyle = createGlobalStyle`
     justify-content: center;
     min-height: 100%;
   }
-
 `;
+
+export default GlobalStyle;
