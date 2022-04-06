@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import theme from "./theme/theme.json";
-import devices from "./theme/devices";
+import device from "media-query-sizes";
 
 export const CardContainer = styled.div`
   display: flex;
@@ -11,18 +11,18 @@ export const CardContainer = styled.div`
   padding: 40px;
 
   .btn-1 {
-    color: ${theme.colors["zest:"]};
+    color: ${theme.colors.zest};
   }
 
   .btn-2 {
-    color: ${theme.colors["mosque:"]};
+    color: ${theme.colors.mosque};
   }
 
   .btn-3 {
-    color: ${theme.colors["cyprus:"]};
+    color: ${theme.colors.cyprus};
   }
 
-  @media ${devices.laptop} {
+  @media ${device.laptop} {
     height: 420px;
   }
 `;
@@ -37,7 +37,7 @@ export const CarImage = styled.img`
 `;
 
 export const CarName = styled.h1`
-  color: ${theme.colors["concrete:"]};
+  color: ${theme.colors.concrete};
   font-family: ${theme.fonts.secondary};
   font-size: 36px;
   margin: 30px 0;
@@ -45,14 +45,14 @@ export const CarName = styled.h1`
 `;
 
 export const CarDescription = styled.p`
-  color: ${theme.colors["ebb:"]};
+  color: ${theme.colors.ebb};
   font-size: 15px;
   font-weight: 300;
   line-height: 1.6em;
 `;
 
 export const Button = styled.button`
-  background-color: ${theme.colors["concrete:"]};
+  background-color: ${theme.colors.concrete};
   border-radius: 30px;
   border: 2px solid transparent;
   cursor: pointer;
@@ -63,8 +63,8 @@ export const Button = styled.button`
 
   &:hover {
     background-color: transparent;
-    border-color: ${theme.colors["concrete:"]};
-    color: ${theme.colors["concrete:"]};
+    border-color: ${theme.colors.concrete};
+    color: ${theme.colors.concrete};
   }
 
   &:active {

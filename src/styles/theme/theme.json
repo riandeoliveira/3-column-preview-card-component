@@ -1,23 +1,14 @@
 {
   "colors": {
-    "concrete:": "#f2f2f2",
-    "cyprus:": "#004241",
-    "ebb:": "#ece5e5",
-    "mosque:": "#006970",
-    "zest:": "#e38826"
+    "concrete": "#f2f2f2",
+    "cyprus": "#004241",
+    "ebb": "#ece5e5",
+    "mosque": "#006970",
+    "zest": "#e38826"
   },
   "fonts": {
     "primary": "Lexend Deca",
     "secondary": "Big Shoulders Display",
     "neutral": "sans-serif"
-  },
-  "screen_sizes": {
-    "desktop": 2560,
-    "laptopL": 1440,
-    "laptop": 1024,
-    "tablet": 768,
-    "mobileL": 425,
-    "mobileM": 375,
-    "mobileS": 320
   }
 }

@@ -1,6 +1,6 @@
 import theme from "./theme/theme.json";
 import styled from "styled-components";
-import devices from "./theme/devices";
+import device from "media-query-sizes";
 
 export const AppContainer = styled.div`
   display: flex;
@@ -8,21 +8,21 @@ export const AppContainer = styled.div`
 
   .card-1 {
     animation: slide-card-1 1s;
-    background-color: ${theme.colors["zest:"]};
+    background-color: ${theme.colors.zest};
     border-radius: 10px 0 0 10px;
   }
 
   .card-2 {
-    background-color: ${theme.colors["mosque:"]};
+    background-color: ${theme.colors.mosque};
   }
 
   .card-3 {
     animation: slide-card-3 1s;
-    background-color: ${theme.colors["cyprus:"]};
+    background-color: ${theme.colors.cyprus};
     border-radius: 0 10px 10px 0;
   }
 
-  @media ${devices.laptop} {
+  @media ${device.laptop} {
     flex-direction: column;
 
     .card-1 {

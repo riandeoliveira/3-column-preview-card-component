@@ -10,13 +10,3 @@ export interface CardProps {
   image: string;
   key: number;
 }
-
-export interface DeviceSizes {
-  desktop: string;
-  laptop: string;
-  laptopL: string;
-  mobileL: string;
-  mobileM: string;
-  mobileS: string;
-  tablet: string;
-}

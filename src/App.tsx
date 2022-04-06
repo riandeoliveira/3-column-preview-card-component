@@ -1,10 +1,8 @@
 import content from "./content/card.json";
-import sedans from "./assets/images/sedans.svg";
-import suvs from "./assets/images/suvs.svg";
-import luxury from "./assets/images/luxury.svg";
+import { sedans, suvs, luxury } from "./assets/media";
 import { CardContent } from "./interfaces/interfaces";
 import { AppContainer } from "./styles/App";
-import { Card } from "./components/Card";
+import Card from "./components/Card";
 
 const { cards_content } = content;
 

@@ -11,7 +11,7 @@ import {
 
 const { button_text } = content;
 
-export const Card: React.FC<CardProps> = ({ content, image }) => {
+const Card: React.FC<CardProps> = ({ content, image }) => {
   const { id, car_image_alt, car_name, car_description } = content;
 
   return (
@@ -25,3 +25,5 @@ export const Card: React.FC<CardProps> = ({ content, image }) => {
     </CardContainer>
   );
 };
+
+export default Card;
