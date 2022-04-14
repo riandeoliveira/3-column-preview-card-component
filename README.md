@@ -10,7 +10,7 @@ Desenvolvido com base no [design](https://www.frontendmentor.io/challenges/3colu
   <img alt="Application demo GIF." src="demo/3-column-preview-card-component.gif" />
 </div>
 
-## 🧑‍💻 Como acessar
+## 🛠️ Como acessar
 
 A aplicação está hospedada no **GitHub Pages** e pode ser acessada [aqui](https://riandeoliveira.github.io/3-column-preview-card-component/).
 
@@ -18,11 +18,18 @@ A aplicação está hospedada no **GitHub Pages** e pode ser acessada [aqui](htt
 
 <div align="center">
   <h3>Front-End</h3>
-  <img alt="HTML5 logo. An orange shield with a large white number five in the middle." src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" height="35" title="HTML5 logo" width="50"></img>
-  <img alt="CSS3 logo. A blue shield with a large white number three in the middle." src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" height="35" title="CSS3 logo" width="50"></img>
-  <img alt="JavaScript logo. A yellow square with the dark letters JS in the lower right corner." src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" height="35" title="JavaScript logo" width="50"></img>
-  <img alt="React logo. A blue atom." src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" height="35" title="React.js logo" width="50"></img>
-  <img alt="TypeScript logo. A blue square with the white letters TS in the lower right corner." src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" height="35" title="TypeScript logo" width="50"></img>
+  <img alt="HTML5 logo" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" title="HTML5" width="40"></img>
+  &nbsp;
+  <img alt="CSS3 logo" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" title="CSS3" width="40"></img>
+  &nbsp;
+  <img alt="JavaScript logo" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" title="JavaScript" width="40"></img>
+  &nbsp;
+  <img alt="React logo" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" title="React" width="40"></img>
+  &nbsp;
+  <img alt="TypeScript logo" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" title="TypeScript" width="40"></img>
+  &nbsp;
+  <img alt="Styled Components logo" height="40" src="https://avatars.githubusercontent.com/u/20658825?s=200&v=4" title="Styled Components" width="40"></img>
+  &nbsp;
 </div>
 
 ## 🚀 Desenvolvido em
