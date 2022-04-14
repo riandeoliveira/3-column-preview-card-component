@@ -1,5 +1,7 @@
-import luxury from "./images/luxury.svg";
 import sedans from "./images/sedans.svg";
 import suvs from "./images/suvs.svg";
+import luxury from "./images/luxury.svg";
 
-export { luxury, sedans, suvs };
+const images = [sedans, suvs, luxury];
+
+export default images;
