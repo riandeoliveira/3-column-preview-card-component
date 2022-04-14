@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "homepage": "3-column-preview-card-component/",
-  "proxy": "http://localhost:5000",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
