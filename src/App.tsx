@@ -1,31 +1,21 @@
-import content from "./content/card.json";
-import { sedans, suvs, luxury } from "./assets/media";
-import { CardContent } from "./interfaces/interfaces";
-import { AppContainer } from "./styles/App";
-import Card from "./components/Card";
+import AppBox from "./styles/App";
+import cars from "./content/cars.json";
+import images from "./assets/media";
 
-const { cards_content } = content;
-
-const carImages = [sedans, suvs, luxury];
-
-const App: React.FC = () => {
-  const setCardContent = (item: CardContent): CardContent => {
-    const cardContent = {
-      id: item.id,
-      car_name: item.car_name,
-      car_description: item.car_description,
-      car_image_alt: item.car_image_alt,
-    };
-
-    return cardContent;
-  };
-
+const App: React.FC = (): JSX.Element => {
   return (
-    <AppContainer>
-      {cards_content.map((item, i) => (
-        <Card content={setCardContent(item)} key={i} image={carImages[i]} />
+    <AppBox>
+      {cars.map((car, i) => (
+        <div className={`card-${i + 1}`} key={i}>
+          <div>
+            <img alt={car.alt} src={images[i]} />
+            <h1>{car.name}</h1>
+            <p>{car.description}</p>
+          </div>
+          <button>Learn More</button>
+        </div>
       ))}
-    </AppContainer>
+    </AppBox>
   );
 };
 
